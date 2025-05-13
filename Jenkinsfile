@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git url: 'TWOJ_ADRES_REPO', branch: 'main'
+                git url: 'https://github.com/wdabkowska/app-python.git', branch: 'main'
             }
         }
 
